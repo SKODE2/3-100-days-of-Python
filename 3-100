@@ -1,0 +1,67 @@
+# '''Debuging'''
+# yourName = input("Name: ")
+# whatYear = input("What year is it?: ")
+# print(yourName "thinks it is" whatYear)# ,
+
+# yourName = input("Name: ")
+# whatYear = input("What year is it?: ")
+# print("yourName, thinks it is, whatYear")# yourName without "
+
+# print("=== Your Song Generator ===")
+# print("""You'll be asked a bunch of questions
+# then we'll make you up an amazing
+# song, totally copyright free 😭""")
+# print()
+# person = input("Name a person famous for something good: ")
+# thing = input("Name a thing they did: ")
+# place = input("Name a place you like: ")
+# rhyme = input("Give me a verb that rhymes with your person's name: ")
+# print()
+# print("There was a person called" name)
+# print("Who did something cool like", thing, "at the wonderful", place "where you'll find me", rhyme)#place ,
+
+
+print("Create your Silly Main Course menu 😂")
+#create input and var of food name
+food_name = input("Enter Food Name:\n>>> ")
+#create input and var of plant name
+plant_name = input("Enter Your Plant Name:\n>>> ")  
+#create input and var of cooking method
+cooking_method = input("Enter your Cooking Method:\n>>> ")      
+#create input and var of describes food
+describes_food = input("Describes Food:\n>>> ")  
+#create input and var of item
+item = input("DIY item:\n>>> ")  
+print()
+print("MENU")
+print("SO Your main course is....Saute",food_name)
+print("With",item,describes_food,cooking_method,plant_name,)
+print()
+print("How about Your Dessert? 😂")
+#create input and var of Dessert name
+dessert_name = input("Enter Dessert Name:\n>>> ")
+#create input and var of plant name
+ice_cream = input("Enter Your Favourite flavor Ice Cream:\n>>> ")  
+#create input and var of cooking method
+topping = input("Enter Your Topping:\n>>> ")      
+#create input and var of describes food
+describes = input("Describes Your Ice Cream:\n>>> ")  
+#create input and var of item
+ice_tem = input("More Ice Cream item:\n>>> ")  
+print()
+print("MENU")
+print("SO Your Dessert....",dessert_name)
+print("With Big Bolls",ice_cream,describes,topping,"",ice_tem,)
+print()
+print("=============== NEXT ==============")
+# print with format f"{} {}"    
+name = input("enter name: ")  
+age = int(input("enter age: "))  
+gender = input("enter gender: ")  
+
+x = f"""                       
+Your name is {name} 
+you're age {age}
+Your gender {gender}
+"""                              
+print(x)
